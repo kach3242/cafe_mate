@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    tools:context=".IntroActivity">
+    <!-- match_parent = 부모객체와 크기를 동일하게
+    wrap_content = 뷰 크기에 맞게 맞춘다
+    android:scaleType은 이미지에 다양한 표시 효과를 줍니다.
+    fitXY를 사용하면 이미지뷰 비율에 상관없이 이미지를 늘려줍니다. -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/intro"/>
+</LinearLayout>
